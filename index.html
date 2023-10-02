@@ -1,204 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotem Menu</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="menu">
+      <!-- title -->
+      <div class="title">
+        <h2>hotel menu</h2>
+        <div class="underline"></div>
+      </div>
 
-<body>
-    <div class="main-container">
-        <div>
-            <h1 class="main-heading">hotel menu</h1>
-            <div class="underline"></div>
-        </div>
-        <div class="sub-heading">
-            <button class="all">All</button>
-            <button class="breakfast">Breakfast</button>
-            <button class="lunch">Lunch</button>
-            <button class="dinner">Dinner</button>
-            <button class="drinks">Drinks</button>
+      <!-- filter buttons -->
+      <div class="btn-container">
+        <!-- <button type="button" class="filter-btn" data-id="all">all</button> -->
+      </div>
 
-        </div>
-        <div class="all-items">
-            <div class="food-item">
-                <img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80"
-                    alt="">
-                <div>
-                    <div class="food-name-price">
-                        <p class="food">egg omlet hot</p>
-                        <p class="price">$ 15.99</p>
-                    </div>
-                    
-                    
+      <!-- menu items -->
+      <div class="section-center">
+        <!-- single item -->
+        <!-- <article class="menu-item">
+          <img
+            src="https://images.unsplash.com/photo-1630409346699-79481a79db52?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1197&q=80"
+            alt="menu item"
+            class="photo"
+          />
+          <div class="item-info">
+            <header>
+              <h4>butter milk pancakes</h4>
+              <h4 class="price">$15</h4>
+            </header>
+            <p class="item-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, et.
+            </p>
+          </div>
+        </article> -->
+        <!-- end of single item -->
+      </div>
+    </section>
 
-                    <p class="para">i am baby woke mlkshk wolf bitters live-edge blue bottle,hommock freegan copper mug
-                        whatever cold-pressed</p>
-                </div>
-            </div>
-            <div class="food-item">
-                <img src="https://images.unsplash.com/photo-1565895405138-6c3a1555da6a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
-                    alt="">
-                <div>
-                    <div class="food-name-price">
-                        <p class="food">egg puff</p>
-                        <p class="price">$ 71.2</p>
-                    </div>
-                    
-                    <p class="para">i am baby woke mlkshk wolf bitters live-edge blue bottle,hommock freegan copper mug
-                        whatever cold-pressed</p>
-                </div>
-            </div>
-            <div class="food-item">
-                <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80"
-                    alt="">
-                <div>
-                    <div class="food-name-price">
-                        <p class="food">lemon juice with full of salt</p>
-                        <p class="price">$ 60.2</p>
-                    </div>
-                    <p class="para">i am baby woke mlkshk wolf bitters live-edge blue bottle,hommock freegan copper mug
-                        whatever cold-pressed</p>
-                </div>
-            </div>
-            <div class="food-item">
-                <img src="https://images.unsplash.com/photo-1536935338788-846bb9981813?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1592&q=80"
-                    alt="">
-                <div>
-                    <div class="food-name-price">
-                        <p class="food">lemon juice with alcohol</p>
-                        <p class="price">$ 50.0</p>
-                    </div>
-                    <p class="para">i am baby woke mlkshk wolf bitters live-edge blue bottle,hommock freegan copper mug
-                        whatever cold-pressed</p>
-                </div>
-            </div>
-            <div class="food-item">
-                <img src="https://images.unsplash.com/photo-1572862905000-c5b6244027a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                    alt="">
-                <div>
-                    <div class="food-name-price">
-                        <p class="food">nature plants</p>
-                        <p class="price">$ 80.2</p>
-                    </div>
-                    <p class="para">i am baby woke mlkshk wolf bitters live-edge blue bottle,hommock freegan copper mug
-                        whatever cold-pressed</p>
-                </div>
-            </div>
-            <div class="food-item">
-                <img src="https://images.unsplash.com/photo-1600336247312-ba19bc8e60fe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
-                    alt="">
-                <div>
-                    <div class="food-name-price">
-                        <p class="food">spicy mutton</p>
-                        <p class="price">$ 120.2</p>
-                    </div>
-                    <p class="para">i am baby woke mlkshk wolf bitters live-edge blue bottle,hommock freegan copper mug
-                        whatever cold-pressed</p>
-                </div>
-            </div>
-            <div class="food-item">
-                <img src="https://images.unsplash.com/photo-1564844536325-08c9e7f70617?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
-                    alt="">
-                <div>
-                    <div class="food-name-price">
-                        <p class="food">KFC nuts biscuits</p>
-                        <p class="price">$ 150</p>
-                    </div>
-                    <p class="para">i am baby woke mlkshk wolf bitters live-edge blue bottle,hommock freegan copper mug
-                        whatever cold-pressed</p>
-                </div>
-            </div>
-            <div class="food-item">
-                <img src="https://images.unsplash.com/photo-1530610476181-d83430b64dcd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=735&q=80"
-                    alt="">
-                <div>
-                    <div class="food-name-price">
-                        <p class="food">egg puff</p>
-                        <p class="price">$ 90</p>
-                    </div>
-                    <p class="para">i am baby woke mlkshk wolf bitters live-edge blue bottle,hommock freegan copper mug
-                        whatever cold-pressed</p>
-                </div>
-            </div>
-            <div class="food-item">
-                <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
-                    alt="">
-                <div>
-                    <div class="food-name-price">
-                        <p class="food">egg fried rice with spicy</p>
-                        <p class="price">$ 59.2</p>
-                    </div>
-                    <p class="para">i am baby woke mlkshk wolf bitters live-edge blue bottle,hommock freegan copper mug
-                        whatever cold-pressed</p>
-                </div>
-            </div>
-            <div class="food-item">
-                <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
-                    alt="">
-                <div>
-                   ]<div class="food-name-price">
-                    <p class="food">watermilon juice with full of sweet</p>
-                    <p class="price">$ 71.2</p>
-                </div>
-                    <p class="para">i am baby woke mlkshk wolf bitters live-edge blue bottle,hommock freegan copper mug
-                        whatever cold-pressed</p>
-                </div>
-            </div>
-            <div class="food-item">
-                <img src="https://images.unsplash.com/photo-1470338745628-171cf53de3a8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=688&q=80"
-                    alt="">
-                <div>
-                    <div class="food-name-price">
-                        <p class="food">tulasi milk with ice</p>
-                        <p class="price">$ 120</p>
-                    </div>
-                    <p class="para">i am baby woke mlkshk wolf bitters live-edge blue bottle,hommock freegan copper mug
-                        whatever cold-pressed</p>
-                </div>
-            </div>
-            <div class="food-item">
-                <img src="https://images.unsplash.com/photo-1539735257177-0d3949225f96?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
-                    alt="">
-                <div>
-                    <div class="food-name-price">
-                        <p class="food">chicken spicy</p>
-                        <p class="price">$ 130</p>
-                    </div>
-                    <p class="para">i am baby woke mlkshk wolf bitters live-edge blue bottle,hommock freegan copper mug
-                        whatever cold-pressed</p>
-                </div>
-            </div>
-            <div class="food-item">
-                <img src="https://images.unsplash.com/photo-1565895405138-6c3a1555da6a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
-                    alt="">
-                <div>
-                    <div class="food-name-price">
-                        <p class="food">egg manchurai</p>
-                        <p class="price">$ 71.0</p>
-                    </div>
-                    <p class="para">i am baby woke mlkshk wolf bitters live-edge blue bottle,hommock freegan copper mug
-                        whatever cold-pressed</p>
-                </div>
-            </div>
-            <div class="food-item">
-                <img src="https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
-                    alt="">
-                <div>
-                    <div class="food-name-price">
-                        <p class="food">barbique love</p>
-                        <p> $ 110</p>
-                    </div>
-                    <p class="para">i am baby woke mlkshk wolf bitters live-edge blue bottle,hommock freegan copper mug
-                        whatever cold-pressed</p>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-</body>
-
+    <!-- javascrit file -->
+    <script src="./app.js"></script>
+  </body>
 </html>
